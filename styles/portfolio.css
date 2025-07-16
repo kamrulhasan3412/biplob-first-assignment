@@ -82,3 +82,31 @@ nav ul li {
   height: 250px;
   width: 428px;
 }
+.stats-container {
+  border-radius: 24px;
+  background: rgba(78, 71, 255, 0.1);
+  margin-top: 40px;
+}
+
+.stats-heading {
+  text-align: center;
+  font-size: 32px;
+  padding-top: 24px;
+}
+
+.stats-sub-container {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.stats-sub-heading {
+  font-size: 80px;
+  margin-top: -1px;
+}
+
+.stats-sub-desc {
+  margin-top: -70px;
+  font-weight: 500;
+}
