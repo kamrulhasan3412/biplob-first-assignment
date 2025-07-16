@@ -110,3 +110,46 @@ nav ul li {
   margin-top: -70px;
   font-weight: 500;
 }
+.review-section {
+  padding: 100px 0;
+}
+
+.review-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.review-heading {
+  font-size: 37px;
+  text-align: center;
+}
+
+.review-desc {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.review-img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.review-card {
+  border-radius: 14px;
+  border: var(--sds-size-stroke-border) solid #f2eded;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border: 1px solid #f2eded;
+}
+
+.reviewer-profile-container {
+  display: flex;
+  gap: 10px;
+}
+
+.reviewer-profile-container-desc {
+  font-size: 10px;
+  font-weight: 400;
+}
