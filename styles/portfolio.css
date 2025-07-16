@@ -247,3 +247,44 @@ nav ul li {
 .contact-form button:hover {
   background-color: #4338ca;
 }
+.footer-container {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fff;
+  font-family: "Inter", sans-serif;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 70px;
+  font-weight: bolder;
+  color: #3a3aff;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-weight: 400;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #8987a1;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #3a3aff;
+}
